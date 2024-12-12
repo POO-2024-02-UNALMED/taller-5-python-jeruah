@@ -28,7 +28,7 @@ class Pez(Animal):
     def movimiento(self) -> str:
         return "nadar"
 
-    def getColoEscamas(self) -> str:
+    def getColorEscamas(self) -> str:
         return self.color_escamas
 
     def getCantidadAletas(self) -> int:
