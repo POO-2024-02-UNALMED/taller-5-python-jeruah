@@ -1,5 +1,4 @@
-from zooAnimales.utlis import totalPorTipo, totalPorTipoUtil
-
+from zooAnimales.utlis import totalPorTipoUtil
 
 class Animal:
     total_animales = 0
