@@ -30,7 +30,7 @@ class Animal:
         message = f"Mamiferos: {total_mamiferos}\nAves: {total_aves}\nReptiles: {total_reptiles}\nPeces: {total_pez}\nAnfibios: {total_anfibio}"
         return message
 
-    def toSting(self) -> str:
+    def toString(self) -> str:
         if self.zona is None:
             return f"Mi nombre es {self.nombre}, tengo una edad de {self.edad}, habito en {self.habitat} y mi genero es {self.genero}"
         else:
